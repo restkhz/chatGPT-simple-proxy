@@ -1,6 +1,6 @@
 # chatGPT-simple-proxy
 
-![中文用户看这里](https://blog.restkhz.com/post/chatGPT-simple-proxy)
+[中文用户看这里](https://blog.restkhz.com/post/chatGPT-simple-proxy)
 
 First, this little simple project is based on:
 
