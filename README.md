@@ -1,5 +1,7 @@
 # chatGPT-simple-proxy
 
+![中文用户看这里](https://blog.restkhz.com/post/chatGPT-simple-proxy)
+
 First, this little simple project is based on:
 
 https://github.com/ioanmo226/chatgpt-web-application
@@ -12,7 +14,7 @@ To prevent abuse, I added a simple permission authentication.
 
 ## How to use
 
-1. ```git clone ```
+1. ```git clone https://github.com/restkhz/chatGPT-simple-proxy.git```
 2. ```pip install -r requirements.txt```
 3. ```export AUTH=<1 or 0. set to 1 to enable authentication> PORT=<3001>  TOKEN=<sk-xxx...>```
 4. If you set `AUTH` to `1` in the previous step, modify `users.json` to assign credentials.
@@ -21,7 +23,7 @@ To prevent abuse, I added a simple permission authentication.
 ### With Docker
 Image is about 144Mb
 
-1. ```git clone ```
+1. ```git clone https://github.com/restkhz/chatGPT-simple-proxy.git```
 2. Modify `Dockerfile` to fit your environment.
 3. ```sudo docker image build -t chatgpt-proxy .```
-4. ```sudo docker container run -p <port>:3001 chatgpt-proxy:0.1```
+4. ```sudo docker container run -p <port>:3001 chatgpt-proxy```
