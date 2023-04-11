@@ -8,9 +8,11 @@ https://github.com/ioanmo226/chatgpt-web-application
 
 **So, huge thank to @ioanmo226!**
 
-I modified part of the javascript and wrote a another simple backend with flask to give this program the ability to understand context.
+I modified part of the javascript and wrote a another simple backend with flask to give this program **the ability to understand context.**
 
-To prevent abuse, I added a simple permission authentication.
+To prevent abuse, I added a simple **permission authentication**.
+
+![chatGPT-simple-proxy-example](https://github.com/restkhz/blogImages/blob/main/img/Screenshot_20230411_085904.png?raw=true "chatGPT-simple-proxy-example")
 
 ## How to use
 

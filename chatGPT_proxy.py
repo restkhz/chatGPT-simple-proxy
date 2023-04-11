@@ -59,7 +59,7 @@ def get_prompt_result():
     msg = jsonObj.get('messages')
     print(msg, model)
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model=model,
         messages=msg
     )
     print(response['choices'][0]['message']['content'])
