@@ -13,6 +13,8 @@ ENV AUTH=1
 ENV PORT=3001
 
 #OpenAI token. Something start with sk-xxx...
-ENV TOKEN=
+ENV TOKEN=sk-xxx
+
+VOLUME /app
 
 CMD python3 chatGPT_proxy.py

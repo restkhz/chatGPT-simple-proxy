@@ -52,12 +52,14 @@ def get_prompt_result():
     if modelSelect == 'chatgpt':
         model = "gpt-3.5-turbo"
     if modelSelect == 'gpt':
-        model = "text-davinci-003"
+        model = "davinci"
     if modelSelect == 'codex':
         model = "code-davinci-002"
+    if modelSelect == "gpt-4":
+        model = "gpt-4"
 
     msg = jsonObj.get('messages')
-    print(msg, model)
+    print(msg, model, flush=True)
     response = openai.ChatCompletion.create(
         model=model,
         messages=msg
