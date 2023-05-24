@@ -30,7 +30,7 @@ Image is about 144Mb
 1. ```git clone https://github.com/restkhz/chatGPT-simple-proxy.git```
 2. Modify `Dockerfile` to fit your environment.
 3. ```sudo docker image build -t chatgpt-proxy .```
-4. ```sudo docker container run -p <port>:3001 -v .:/app chatgpt-proxy```
+4. ```sudo docker container run -p <port>:3001 -v $(pwd):/app chatgpt-proxy```
 
 ## Warning
 
